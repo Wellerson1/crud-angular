@@ -1,0 +1,38 @@
+header{
+    background-color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: #4B0082;
+    font-size: 22px;
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.menu{
+    display: flex;  
+}
+
+.menu li{
+    margin-left: 10px;
+}
+
+.menu li a{
+    display: block;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #4B0082;;
+}
+a:hover{
+    color: slateblue;
+}
+section{
+    margin-top: 20px;
+}

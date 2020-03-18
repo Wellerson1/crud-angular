@@ -1,0 +1,24 @@
+<h1>Cadastro</h1>
+<div class="content">
+    <label>Nome</label><br>
+    <input type="text" placeholder="Insira seu nome" [(ngModel)]="request.first_name">
+    <br>
+    <label>Profissão</label><br>
+    <input type="text" placeholder="Insira a profissão" [(ngModel)]="request.job"><br>
+    <button (click)="salvar()">Gravar</button>
+</div>
+
+<div class="content">
+    <table>
+        <thead>
+            <td>Nome</td>
+            <td>Profissão</td>
+        </thead>   
+            <tbody>
+                <tr>
+                    <td>{{response.name}}</td>
+                    <td>{{response.job}}</td>
+                </tr>
+            </tbody>
+    </table>
+    </div>

@@ -1,12 +1,50 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.css" ; 
+body{
+    padding: 50px;
+    margin: 0 auto;
+    background: rgb(5,0,149);
+    background: linear-gradient(90deg, rgba(5,0,149,1) 0%, rgba(98,0,177,1) 78%);
+}
 
-.header {
-    color: #36A0FF;
-    font-size: 27px;
-    padding: 10px;
+body h1{
+    color: #fff;
+}
+
+input{
+    width: 100%;
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px #4B0082 solid ;
+    margin-bottom: 15px;
+
 }
 
 .bigicon {
     font-size: 35px;
     color: #36A0FF;
 }
+.content{
+    padding: 20px;
+    background-color: white;
+    border-radius: 28px;
+    box-shadow: 5px 5px 5px rgba(85, 85, 85, 0.2);
+    margin-top: 10px;
+}
+
+table{
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    }
+    
+    table thead{
+        background: linear-gradient(90deg, rgba(5,0,149,1) 0%, rgba(98,0,177,1) 78%);
+        color: white;
+    }
+    
+    table td {
+        padding: 10px;
+    }
+    a{
+        text-decoration: none;
+    }

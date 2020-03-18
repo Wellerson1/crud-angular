@@ -1,0 +1,15 @@
+<h1>Produtos</h1>
+<div class="content">
+<table *ngIf = "responseProduto">
+    <thead>
+        <td>Nome</td>
+        <td>Descrição</td>
+    </thead>   
+        <tbody>
+            <tr *ngFor="let produto of responseProduto.data">
+                <td>{{produto.name}}</td>
+                <td>{{produto.descricao}}</td>
+            </tr>
+        </tbody>
+</table>
+</div>
