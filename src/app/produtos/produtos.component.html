@@ -4,11 +4,15 @@
     <thead>
         <td>Nome</td>
         <td>Descrição</td>
+        <td>...</td>
+        <td>...</td>
     </thead>   
         <tbody>
-            <tr *ngFor="let produto of responseProduto.data">
+            <tr *ngFor="let produto of responseProdutos">
                 <td>{{produto.name}}</td>
                 <td>{{produto.descricao}}</td>
+                <td><a routerLink="/">Editar</a></td>
+                <td><a style="color: tomato;" (click)="delete()">Delete</a></td>
             </tr>
         </tbody>
 </table>

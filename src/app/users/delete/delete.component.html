@@ -1,11 +1,12 @@
 <h1>Excluir usuário</h1>
-<div class="content">
+<div class="content" *ngIf = "user">
     <h3>Deseja excluir usuário?</h3>
     <label>Nome</label><br>
-    <strong>{{user.name}}</strong>
+    <strong>{{user.first_name}}</strong>
     <br>
     <label>Profissão</label><br>
-    <strong>{{user.job}}</strong>
-    <button (click)="Excluir()">Excluir</button>
-    <button routerLink="../">Cancelar</button>
+    <strong>{{user.last_name}}</strong>
+    <br>
+    <button (click)="delete()">Excluir</button>
+    <button (click)="cancel()">Cancelar</button>
 </div>

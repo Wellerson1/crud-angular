@@ -1,13 +1,12 @@
 export interface Produto {
     name: String,
     descricao: String,
-    category: String,
+    categoria: String
 }
 
-export interface ResponseProduto {
-    page: number;
-    per_page: number;
-    total: number;
-    total_pages: number;
-    data: Produto[];
+export interface ResponseProduto{
+    data: Produto
+}
+export interface ResponseProdutos{
+    data: Produto[]
 }
